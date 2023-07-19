@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .menuBtn {
+      @apply uppercase text-sm font-semibold duration-300 hover:bg-sky-900 hover:text-white px-4 py-2 rounded;
+    }
+    .btnBig {
+      @apply bg-gradient-to-r from-sky-800 to-sky-600 block text-center text-white  py-14 px-5 rounded-md uppercase font-bold text-2xl hover:from-sky-600 hover:to-sky-800 max-md:text-base max-md:py-4 max-md:px-2;
+    }
+  }
+ 
