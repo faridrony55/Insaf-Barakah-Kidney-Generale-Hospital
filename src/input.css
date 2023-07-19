@@ -9,5 +9,14 @@
     .btnBig {
       @apply bg-gradient-to-r from-sky-800 to-sky-600 block text-center text-white  py-14 px-5 rounded-md uppercase font-bold text-2xl hover:from-sky-600 hover:to-sky-800 max-md:text-base max-md:py-4 max-md:px-2;
     }
+    .doctor div{
+      @apply bg-white bg-gradient-to-r hover:from-sky-800 hover:to-sky-600 hover:text-white py-4 px-5
+    }
+    .doctor div h2{
+      @apply text-xl
+    }
+    .doctor div span{
+      @apply text-sm
+    }
   }
  
