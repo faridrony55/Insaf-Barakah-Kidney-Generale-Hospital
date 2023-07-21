@@ -7,16 +7,25 @@
       @apply uppercase text-sm font-semibold duration-300 hover:bg-sky-900 hover:text-white px-4 py-2 rounded;
     }
     .btnBig {
-      @apply bg-gradient-to-r from-sky-800 to-sky-600 block text-center text-white  py-14 px-5 rounded-md uppercase font-bold text-2xl hover:from-sky-600 hover:to-sky-800 max-md:text-base max-md:py-4 max-md:px-2;
+      @apply bg-gradient-to-r from-sky-800 to-sky-600 block text-center text-white  py-14 px-5 rounded-md uppercase font-bold text-2xl hover:from-sky-600 hover:to-sky-800 max-md:text-base max-lg:text-xl max-lg:py-10 max-md:py-4 max-md:px-5 ;
     }
     .doctor div{
-      @apply bg-white bg-gradient-to-r hover:from-sky-800 hover:to-sky-600 hover:text-white py-4 px-5
+      @apply bg-white bg-gradient-to-r hover:from-sky-800 hover:to-sky-600 hover:text-white py-4 px-5 max-lg:px-2 max-lg:py-2
     }
     .doctor div h2{
-      @apply text-xl
+      @apply text-xl;
     }
     .doctor div span{
-      @apply text-sm
+      @apply text-sm;
+    }
+
+
+   
+    .blog .blogDetails{
+      @apply overflow-hidden bg-white py-4 px-5 flex flex-col items-start;
+    }
+    .linkBtn{
+      @apply bg-gradient-to-r from-sky-800 to-sky-600 text-white w-8 h-8 rounded-full flex justify-center items-center;
     }
   }
  
