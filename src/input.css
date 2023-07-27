@@ -108,7 +108,7 @@
     }
     .stickySupportArrow div{
       @apply flex;
-    }
+    } 
     .stickySupportArrow a{
       @apply w-16 h-16 flex items-center justify-center text-4xl text-white rounded-md cursor-pointer;
     }
