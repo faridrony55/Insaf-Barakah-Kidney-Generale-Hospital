@@ -16,7 +16,7 @@
     @apply font-bold lg:text-7xl   md:text-3xl text-2xl  mb-3  max-sm:mb-2 max-sm:text-lg max-sm:mb-1;
   }
   .learnmoreBtn{
-    @apply rounded-md px-6 uppercase py-2  bg-sky-900 mt-5 max-md:px-4 max-md:py-2 max-md:text-sm max-sm:mt-3 ;
+    @apply rounded-md px-6 uppercase py-2  bg-[#56a2d1] mt-5 max-md:px-4 max-md:py-2 max-md:text-sm max-sm:mt-3 ;
   }
 
   .bannerBottomList{
@@ -24,13 +24,13 @@
   }
  
     .menuBtn {
-      @apply uppercase text-sm font-semibold duration-300 hover:bg-sky-900 hover:text-white px-4 py-2 rounded ;
+      @apply uppercase text-sm font-semibold duration-300 hover:bg-[#56a2d1] hover:text-white px-4 py-2 rounded ;
     }
     .btnBig {
-      @apply bg-gradient-to-r from-sky-800 to-sky-600 block text-center text-white  py-14 px-5 rounded-md uppercase font-bold text-2xl hover:from-sky-600 hover:to-sky-800 max-md:text-base max-lg:text-xl max-lg:py-10 max-md:py-8 max-md:px-3 max-sm:text-sm max-sm:font-normal max-sm:py-5 ;
+      @apply bg-gradient-to-r from-[#56a2d1] to-sky-600 block text-center text-white  py-14 px-5 rounded-md uppercase font-bold text-2xl hover:from-sky-600 hover:to-[#56a2d1] max-md:text-base max-lg:text-xl max-lg:py-10 max-md:py-8 max-md:px-3 max-sm:text-sm max-sm:font-normal max-sm:py-5 ;
     }
     .doctor div{
-      @apply bg-white bg-gradient-to-r hover:from-sky-800 hover:to-sky-600 hover:text-white py-4 px-5 max-lg:px-2 max-lg:py-2
+      @apply bg-white bg-gradient-to-r hover:from-sky-600 hover:to-[#56a2d1] hover:text-white py-4 px-5 max-lg:px-2 max-lg:py-2
     }
     .doctor div h2{
       @apply text-xl;
@@ -45,7 +45,7 @@
       @apply overflow-hidden bg-white py-4 px-5 flex flex-col items-start;
     }
     .linkBtn{
-      @apply bg-gradient-to-r from-sky-800 to-sky-600 text-white w-8 h-8 max-sm:w-6 max-sm:h-6 rounded-full flex justify-center items-center;
+      @apply bg-gradient-to-r from-[#56a2d1] to-sky-600 text-white w-8 h-8 max-sm:w-6 max-sm:h-6 rounded-full flex justify-center items-center;
     }
 
     
@@ -53,10 +53,10 @@
       @apply relative
     }
     .quote i{
-      @apply text-white bg-sky-400 w-7 h-7 rounded-full flex justify-center items-center absolute -top-4 -left-4
+      @apply text-white bg-[#56a2d1] w-7 h-7 rounded-full flex justify-center items-center absolute -top-4 -left-4
     }
     .blogdate{
-      @apply absolute top-0 text-white left-0 bg-sky-600 px-3 py-2 flex flex-col justify-center items-center
+      @apply absolute top-0 text-white left-0 bg-[#56a2d1] px-3 py-2 flex flex-col justify-center items-center
     }
     .blogdate strong{
       @apply  font-bold tracking-wider text-4xl max-lg:text-2xl
@@ -113,14 +113,14 @@
       @apply w-16 h-16 max-md:w-12 max-md:h-12 flex items-center justify-center text-4xl max-md:text-2xl text-white rounded-md cursor-pointer;
     }
     .stickySupportArrow .arrow{
-      @apply bg-sky-500 hover:bg-sky-600;
+      @apply bg-sky-500 hover:bg-[#56a2d1] duration-300 translate-y-full  opacity-0;
     }
     .stickySupportArrow a{
       @apply bg-red-600 hover:bg-red-700;
     }
 
     .titleBox span{
-      @apply  text-[#408EC6] text-lg font-medium max-md:text-base max-xl:text-base;
+      @apply  text-[#56a2d1] text-lg font-medium max-md:text-base max-xl:text-base;
     }
     .titleBox h2{
       @apply font-semibold text-5xl my-2 text-stone-800 max-md:text-lg max-xl:text-3xl max-xl:mt-0 ;
@@ -134,6 +134,7 @@
     grid-template-columns: 4fr 7fr; 
     align-items: stretch;
   }
+  
   @media (max-width: 1024px){
 
     .newsBolg{
